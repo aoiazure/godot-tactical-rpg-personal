@@ -1,0 +1,12 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://GameBoard/unit_path_tileset.tres" type="TileSet" id=1]
+[ext_resource path="res://Utility/UnitPath.gd" type="Script" id=2]
+[ext_resource path="res://Grid.tres" type="Resource" id=3]
+
+[node name="UnitPath" type="TileMap"]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 80, 80 )
+format = 1
+script = ExtResource( 2 )
+grid = ExtResource( 3 )
